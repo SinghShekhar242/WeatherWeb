@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GeoTemp</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMrYgHBE3-hegl9TCiNMl4oN0Ly1WSZJY"></script>
+
+</head>
+<body>
+  <div class="container">
+    
+    <div class="sidebar">
+      <h2>🌦️ GeoTemp</h2>
+      <button id="gpsBtn">Use My Location</button>
+      <input type="text" id="cityInput" placeholder="Search city..." autocomplete="off" />
+      <ul id="suggestions"></ul>
+      <button id="showAllBtn"> Show All Cities</button>
+      <div id="cityList" class="hidden"></div>
+      
+<button id="mapBtn" style="background-color: #6a1b9a;">Select on Map</button>
+
+    </div>
+
+   
+    <div class="weather-display" id="weatherDisplay">
+      <h1>Select a city to view weather</h1>
+    </div>
+    <div id="lifestyleTips"></div>
+    
+<div id="mapModal">
+  <div id="map" style="height: 100%; width: 100%;"></div>
+  <button onclick="closeMap()" style="
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;">Close</button>
+</div>
+
+   
+
+
+  </div>
+</body>
+</html>
