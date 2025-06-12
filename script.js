@@ -1,6 +1,6 @@
 
 
-const apiKey = '55bccadefc3239388d8477c2d21b58db';
+const apiKey = 'Google maps public key hidden use your api key to use this function';
 let cities = [];
 
 const cityInput = document.getElementById('cityInput');
@@ -201,4 +201,8 @@ function initMap() {
     fetchWeatherByCoords(lat, lon);
   });
 }
+
+
+
+
 
