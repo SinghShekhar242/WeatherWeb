@@ -1,6 +1,6 @@
 
 
-const apiKey = 'Google maps public key hidden use your api key to use this function';
+const apiKey = '55bccadefc3239388d8477c2d21b58db';
 let cities = [];
 
 const cityInput = document.getElementById('cityInput');
