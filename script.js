@@ -1,6 +1,6 @@
 
 
-const apiKey = '55bccadefc3239388d8477c2d21b58db';
+const apiKey = 'To use this feature insert your weather api number';
 let cities = [];
 
 const cityInput = document.getElementById('cityInput');
